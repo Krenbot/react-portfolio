@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import "bootstrap/dist/css/bootstrap.min.css"
+import './App.css';
 
 function App() {
   const [page, setPage] = useState('home')
@@ -26,6 +27,8 @@ function App() {
       {
         render()
       }
+
+
       <Footer />
     </div>
   );
