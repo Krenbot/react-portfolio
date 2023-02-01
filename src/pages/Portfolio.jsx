@@ -33,7 +33,7 @@ const projects = [
         title: 'Workday Scheduler',
         description: 'test test test4',
         githubUrl: 'https://github.com/Krenbot/workday-scheduler',
-        liveUrl: 'krenbot.github.io/workday-scheduler/',
+        liveUrl: 'https://krenbot.github.io/workday-scheduler/',
         image: '/images/workdayScheduler-min.jpg',
         alt: 'alt text',
         techs: 'HTML, CSS< JavaScript, jQuery, moment.js'
@@ -42,10 +42,19 @@ const projects = [
         title: 'Weather Dashboard',
         description: 'test test test5',
         githubUrl: 'https://github.com/Krenbot/weather-dashboard',
-        liveUrl: 'https://github.com/Krenbot/weather-dashboard',
+        liveUrl: 'https://krenbot.github.io/weather-dashboard/',
         image: '/images/weatherDashboard-min.png',
         alt: 'alt text',
         techs: 'HTML, CSS, JavaScript, moment.js'
+    },
+    {
+        title: 'GitHub Repo Search',
+        description: 'test test test6',
+        githubUrl: 'https://github.com/Krenbot/github-repo-search',
+        liveUrl: 'https://krenbot.github.io/github-repo-search/',
+        image: '/images/repoSearch.jpg',
+        alt: 'alt text',
+        techs: 'React, ESLint, Axios'
     }
 ]
 
