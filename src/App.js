@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Aboutme from './pages/Aboutme';
 import Contactme from './pages/Contactme';
+import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -15,21 +16,17 @@ function App() {
       return <Aboutme />;
     } else if (page === 'contact') {
       return <Contactme />
+    } else if (page === 'resume') {
+      return <Resume />
     } else {
       return <Portfolio />
     }
   }
+
   return (
     <div className="App">
-      <Header />
-
-      <Navbar page={page} setPage={setPage} />
-
-      {
-        render()
-      }
-
-
+      <Header page={page} setPage={setPage} />
+      {render()}
       <Footer />
     </div>
   );
