@@ -3,6 +3,7 @@ import React from 'react'
 const Contactme = () => {
     return (
         <section>
+            <br />
             <form id="contact-form" action='mailto: stevekrenn@gmail.com' method="post" enctype="text/plain">
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -13,6 +14,7 @@ const Contactme = () => {
 
                     />
                 </div>
+                <br />
                 <div>
                     <label htmlFor="email">Email address:</label>
                     <input
@@ -21,6 +23,7 @@ const Contactme = () => {
                         placeholder='user@test.com'
                     />
                 </div>
+                <br />
                 <div>
                     <label htmlFor="message">Message:</label>
                     <textarea
