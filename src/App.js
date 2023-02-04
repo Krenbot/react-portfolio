@@ -10,6 +10,7 @@ import './App.css';
 
 function App() {
   const [page, setPage] = useState('home')
+
   const render = () => {
     if (page === 'home') {
       return <Aboutme />;
