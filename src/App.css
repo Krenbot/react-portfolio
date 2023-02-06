@@ -112,6 +112,14 @@ header nav a:hover::after {
     padding-top: .5em;
 }
 
+.container {
+    align-items: center;
+}
+
+.card-body {
+    justify-content: center;
+}
+
 .btn {
     position: absolute;
     align-items: center;

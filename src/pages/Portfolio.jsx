@@ -4,7 +4,7 @@ import Project from '../components/Project'
 const projects = [
     {
         title: 'Book || Nook',
-        description: 'test test test1',
+        description: 'Literature-based social bookshelf app',
         githubUrl: 'https://github.com/Krenbot/book-nook',
         liveUrl: 'https://book-nook.herokuapp.com/',
         alt: 'Book Nook Image',
@@ -13,7 +13,7 @@ const projects = [
     },
     {
         title: 'Body of Cards',
-        description: 'test test test2',
+        description: 'Exercises and corresponding cards are pulled from APIs and randomized for user workouts.',
         githubUrl: 'https://github.com/Krenbot/body-of-cards',
         liveUrl: 'https://krenbot.github.io/body-of-cards/',
         image: '/images/bodyOfCards-min.png',
@@ -22,25 +22,25 @@ const projects = [
     },
     {
         title: 'Tech Blog',
-        description: 'test test test3',
+        description: 'Tech blog project featuring Handlebars',
         githubUrl: 'https://github.com/Krenbot/tech-blog',
         liveUrl: 'https://shrouded-scrubland-56368.herokuapp.com/',
         image: '/images/techBlog-min.jpg',
         alt: 'Tech Blog Image',
-        techs: 'node.js, MySql, dotenv, Sequelize, Postman'
+        techs: 'node.js, MySql, dotenv, Sequelize, Postman, Handlebars'
     },
     {
         title: 'Workday Scheduler',
-        description: 'test test test4',
+        description: 'Project featuring a local storage based scheduler',
         githubUrl: 'https://github.com/Krenbot/workday-scheduler',
         liveUrl: 'https://krenbot.github.io/workday-scheduler/',
         image: '/images/workdayScheduler-min.jpg',
         alt: 'alt text',
-        techs: 'HTML, CSS< JavaScript, jQuery, moment.js'
+        techs: 'HTML, CSS, JavaScript, jQuery, moment.js'
     },
     {
         title: 'Weather Dashboard',
-        description: 'test test test5',
+        description: 'Pulls weather data from API and displays to user',
         githubUrl: 'https://github.com/Krenbot/weather-dashboard',
         liveUrl: 'https://krenbot.github.io/weather-dashboard/',
         image: '/images/weatherDashboard-min.png',
@@ -49,7 +49,7 @@ const projects = [
     },
     {
         title: 'GitHub Repo Search',
-        description: 'test test test6',
+        description: 'React project allowing users to search GitHub repos by keyword',
         githubUrl: 'https://github.com/Krenbot/github-repo-search',
         liveUrl: 'https://krenbot.github.io/github-repo-search/',
         image: '/images/repoSearch.jpg',
