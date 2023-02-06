@@ -106,6 +106,10 @@ header nav a:hover::after {
 }
 
 /* Main Content CSS */
+#resume-image {
+    max-width: 30%;
+    max-height: 30%;
+}
 
 main {
     display: flex;
