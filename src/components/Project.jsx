@@ -10,10 +10,7 @@ const Project = ({ project }) => {
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{description}</p>
                 {/* <p className="card-text">{techs}</p> */}
-                <div className='flex'>
-                    <a href={liveUrl} className="btn btn-primary">Deployed Link</a>
-                    <a href={githubUrl} className="btn btn-primary"><BsGithub />GitHub Repo</a>
-                </div>
+                <a href={githubUrl} className="btn"><BsGithub />   Project Repo</a>
             </div>
         </div >
     )
