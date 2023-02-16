@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 const Resume = () => {
     return (
 
@@ -23,24 +21,27 @@ const Resume = () => {
             </div>
 
             <h6>Technical Skills</h6>
+            <div style={{ display: "flex", flexDirection: "row" }}>
+                <img height='100' width='100' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
 
-            <FontAwesomeIcon icon="fa-brands fa-square-js" />
+                <img height='100' width='100' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+
+                <img height='100' width='100' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+
+                <img height='100' width='100' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
 
 
-            <p>
-                Languages
-                <i className="fa-brands fa-square-js"></i>
-            </p>
-            <p>
+                <div>
+                    <img height='100' width='100' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
 
-                Applications - ADD IMAGES
+                    <img height='100' width='100' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original-wordmark.svg" />
 
-            </p>
+                    <img height='100' width='100' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
 
-            <p>
-                Tools - ADD IMAGES
-            </p>
+                    <img height='100' width='100' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                </div>
 
+            </div>
         </div>
     )
 }
