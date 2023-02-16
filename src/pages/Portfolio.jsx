@@ -16,7 +16,7 @@ const projects = [
         description: 'Exercises and corresponding cards are pulled from APIs and randomized for user workouts.',
         githubUrl: 'https://github.com/Krenbot/body-of-cards',
         liveUrl: 'https://krenbot.github.io/body-of-cards/',
-        image: '/images/bodyOfCards-min.png',
+        image: './images/bodyOfCards-min.png',
         alt: 'Body of Cards Image',
         techs: 'Bulma, Deck of Cards API, Exercise API, Google Fonts'
     },
@@ -25,7 +25,7 @@ const projects = [
         description: 'Tech blog project featuring Handlebars',
         githubUrl: 'https://github.com/Krenbot/tech-blog',
         liveUrl: 'https://shrouded-scrubland-56368.herokuapp.com/',
-        image: '/images/techBlog-min.jpg',
+        image: './images/techBlog-min.jpg',
         alt: 'Tech Blog Image',
         techs: 'node.js, MySql, dotenv, Sequelize, Postman, Handlebars'
     },
@@ -34,7 +34,7 @@ const projects = [
         description: 'Project featuring a local storage based scheduler',
         githubUrl: 'https://github.com/Krenbot/workday-scheduler',
         liveUrl: 'https://krenbot.github.io/workday-scheduler/',
-        image: '/images/workdayScheduler-min.jpg',
+        image: './images/workdayScheduler-min.jpg',
         alt: 'alt text',
         techs: 'HTML, CSS, JavaScript, jQuery, moment.js'
     },
@@ -43,7 +43,7 @@ const projects = [
         description: 'Pulls weather data from API and displays to user',
         githubUrl: 'https://github.com/Krenbot/weather-dashboard',
         liveUrl: 'https://krenbot.github.io/weather-dashboard/',
-        image: '/images/weatherDashboard-min.png',
+        image: './images/weatherDashboard-min.png',
         alt: 'alt text',
         techs: 'HTML, CSS, JavaScript, moment.js'
     },
@@ -52,7 +52,7 @@ const projects = [
         description: 'React project allowing users to search GitHub repos by keyword',
         githubUrl: 'https://github.com/Krenbot/github-repo-search',
         liveUrl: 'https://krenbot.github.io/github-repo-search/',
-        image: '/images/repoSearch.jpg',
+        image: './images/repoSearch.jpg',
         alt: 'alt text',
         techs: 'React, ESLint, Axios'
     }
