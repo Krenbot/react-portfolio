@@ -9,7 +9,7 @@ const projects = [
         liveUrl: 'https://book-nook.herokuapp.com/',
         alt: 'Book Nook Image',
         techs: 'MySql, Sequelize, express, Handlebars, express-session, bcrypt, anime.js',
-        image: '/images/bookNook-min.png'
+        image: './images/bookNook-min.png'
     },
     {
         title: 'Body of Cards',
