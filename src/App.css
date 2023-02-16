@@ -97,11 +97,6 @@ header nav a:hover::after {
     scale: 1 1;
 }
 
-#resume-image {
-    max-width: 30%;
-    max-height: 30%;
-}
-
 .row {
     margin-top: 0;
     justify-content: center;
@@ -115,6 +110,9 @@ header nav a:hover::after {
 
 .container {
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .card-body {
