@@ -21,6 +21,14 @@ p {
     --border-header-footer: 2px solid black;
 }
 
+.imageContainer {
+    background-color: white;
+}
+
+#resume-image:hover {
+    opacity: 70%
+}
+
 #headshot {
     margin: 10px;
     height: auto;
@@ -120,7 +128,6 @@ header nav a:hover::after {
 }
 
 .btn {
-    position: absolute;
     align-items: center;
     bottom: 0;
     background-color: var(--bg-body);
