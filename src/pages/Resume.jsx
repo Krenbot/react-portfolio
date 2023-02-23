@@ -20,7 +20,7 @@ const Resume = () => {
 
                 <div className='imageContainer'>
                     <a href="https://docs.google.com/document/d/1dkkZ2JOBx--CuWsuis0NWvJXpENTEEb-qLa2GhX7nxA/edit?usp=sharing">
-                        <img id="resume-image" src='/images/resume.jpg' alt="Steven Krenn resume" />
+                        <img id="resume-image" src='./images/resume.jpg' alt="Steven Krenn resume" />
                     </a>
 
                     <div style={{ display: "flex", justifyContent: "center", alignItems: 'center', marginTop: '.5em' }}>
