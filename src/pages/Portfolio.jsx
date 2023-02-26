@@ -3,6 +3,15 @@ import Project from '../components/Project'
 
 const projects = [
     {
+        title: 'Encyclone',
+        description: 'An Enclycopedia Brittanica API based infinite scroll feed',
+        githubUrl: 'https://github.com/ddwk21/cyclone',
+        liveUrl: 'https://fierce-sands-41595.herokuapp.com/',
+        image: './images/cyclone_homepage.png',
+        alt: 'Encyclone Image',
+        techs: 'React, FontAwesome, fast-xml-parser, react-burger-menu'
+    },
+    {
         title: 'Book || Nook',
         description: 'Literature-based social bookshelf app',
         githubUrl: 'https://github.com/Krenbot/book-nook',
