@@ -16,8 +16,8 @@ p {
 }
 
 :root {
-    --bg-body: hsl(214, 44%, 69%);
-    --bg-header-footer: hsl(214, 9%, 69%);
+    --bg-body: #8dabd3;
+    --bg-header-footer: #a9afb7;
     --border-header-footer: 2px solid black;
 }
 
@@ -45,6 +45,11 @@ button {
 
 html {
     font-size: clamp(12px, 1.5vw + 3px, 18px);
+}
+
+#aboutMe {
+    background-color: white;
+    border: var(--border-header-footer)
 }
 
 body {
