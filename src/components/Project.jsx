@@ -10,7 +10,10 @@ const Project = ({ project }) => {
                 <h3 className="card-title">{title}</h3>
                 <p className="card-text">{description}</p>
                 <p className="card-techs">{techs}</p>
-                <a href={githubUrl} className="btn"><BsGithub />   Project Repo</a>
+                <div class='projectLinks'>
+                    <a href={githubUrl} className="btn"><BsGithub />Project Repo</a>
+                    <a href={liveUrl} className="btn">Project Link</a>
+                </div>
             </div>
         </div >
     )

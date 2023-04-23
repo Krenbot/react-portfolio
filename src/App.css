@@ -135,9 +135,14 @@ header nav a:hover::after {
 .btn {
     align-items: center;
     bottom: 0;
-    background-color: var(--bg-body);
+    /* background-color: var(--bg-body); */
     margin-bottom: .5em;
 }
+
+.projectLinks {
+    display: flex;
+}
+
 
 footer {
     display: flex;
